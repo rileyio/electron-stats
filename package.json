@@ -1,0 +1,29 @@
+{
+  "name": "electron-stats",
+  "version": "0.1.0",
+  "description": "Stats client/sender for electron-stats-server",
+  "main": "index.js",
+  "typings": "./src/stats.d.ts",
+  "scripts": {
+    "gulp:live": "gulp dev",
+    "gulp:build": "gulp build",
+    "test": "electron-mocha ./test/test.js"
+  },
+  "author": "Emma (Riley) Booker",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/request": "0.0.43",
+    "electron": "^1.7.4",
+    "electron-mocha": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.0",
+    "mocha": "^3.4.2",
+    "should": "^11.2.1",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "node-machine-id": "^1.1.7",
+    "request": "^2.81.0",
+    "uuid": "github:kelektiv/node-uuid"
+  }
+}
