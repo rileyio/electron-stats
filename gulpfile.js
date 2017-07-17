@@ -26,5 +26,5 @@ gulp.task('dev', [
 ])
 
 gulp.task('build', [
-  'dist'
+  'typescript'
 ])
