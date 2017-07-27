@@ -12,6 +12,7 @@
     "outDir": "app",
     "rootDir": "src",
     "watch": true,
+    "skipLibCheck": true,
     "lib": [
       "es6"
     ]
